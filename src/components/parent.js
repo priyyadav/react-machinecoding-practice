@@ -1,13 +1,13 @@
-import React from 'react'
-import { Child } from './child'
+import React, { useEffect, useState } from 'react'
 
- const Parent = (props) => {
+const Parent = ({name}) => {
+    const [total, setTotal]=useState(0)
+    useEffect(()=>
+    {
+      
+    },[total])
   return (
-
-    <div>
-        Parent
-        <button onClick={props.click}></button>
-        <Child name="priyanka"></Child>
+    <div>{name}{total}
     </div>
   )
 }
