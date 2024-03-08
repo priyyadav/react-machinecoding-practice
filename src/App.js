@@ -33,6 +33,12 @@ function App() {
 {/* <Reducer></Reducer> */}
 
     </div>
+
+
+
+
+
+
   );
 }
 
